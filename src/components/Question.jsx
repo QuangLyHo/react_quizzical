@@ -11,8 +11,10 @@ export default function Question(
         if (!gradeQuiz) {
             styles = {backgroundColor: item.isPicked ? '#caf0f8' : 'transparent'}
         } else {
-            styles = {backgroundColor: (item.answer === correct && item.isPicked) ? '#94D7A2' : (item.answer !== correct && item.isPicked) ?  '#F8BCBC' : 
-            (item.answer === correct) ? '#94D7A2' : ''}
+            styles = {backgroundColor: 
+                (item.answer === correct && item.isPicked) ? '#94D7A2' : 
+                (item.answer !== correct && item.isPicked) ?  '#94D7A2' : 
+                (item.answer === correct) ? '#F8BCBC' : ''}
         }
         
         return (
