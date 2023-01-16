@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: #F5F7FB;
+  color: #293264;
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  border: 1px solid #293264;
+  margin: 1em 2em;
+  border-radius: 10px;
+}
+
+.question-card {
+  width: 90%;
+  margin: 0em auto 0;
+  padding: 1em;
+  border-bottom: 1px solid #DBDEF0;
+}
+
+.answer {
+  font-size: .75rem;
+  display: inline-block;
+  border: 1px solid #293264;
+  border-radius: 50px;
+  padding: 1em;
+  margin: .5em;
+}
+
+button {
+  background: #4D5B9E;
+  color: white;
+  padding: 1em 2.5em;
+  border-radius: 10px;
+  border: none;
+  margin: 1em auto 2em;
+}
+
+.play-again-btn {
+  display: inline-block;
+  width: 30%;
+}
+
+.score {
+  display: inline-block;
+  width: 30%;
+}
+
+.blobTop,
+.blobBottom {
+  position: absolute;
+  z-index: -1;
+}
+
+.blobTop {
+  top: 0;
+  right: 0;
+}
+
+.blobBottom {
+  bottom: 0;
+  left: 0
+}
