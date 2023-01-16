@@ -42,6 +42,7 @@ body {
   border-radius: 50px;
   padding: 1em;
   margin: .5em;
+  cursor: pointer;
 }
 
 button {
