@@ -75,6 +75,8 @@ export default function App() {
         
         questionsData.map(item => item.correct === item.selected ? 
             setCorrectAnswers(prev => prev + 1) : '')
+        console.log(questionsData)
+        console.log(correctAnswers)
     }
     
     function reset() {
