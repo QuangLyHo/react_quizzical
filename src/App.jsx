@@ -35,7 +35,7 @@ export default function App() {
                     return {
                         id: uuid4(),
                         question: question,
-                        correct: correct_answer,
+                        correct: decode(correct_answer),
                         answers: answersObj,
                         selected: ''
                     }
