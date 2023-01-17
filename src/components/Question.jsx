@@ -12,7 +12,7 @@ export default function Question(
             styles = {backgroundColor: item.isPicked ? '#caf0f8' : 'transparent'}
         } else {
             styles = {backgroundColor: 
-                (item.answer === correct && item.isPicked) ? '#94D7A2' : 
+                (item.answer === correct && selected === correct) ? '#94D7A2' : 
                 (item.answer !== correct && item.isPicked) ?  '#94D7A2' : 
                 (item.answer === correct) ? '#F8BCBC' : ''}
         }
