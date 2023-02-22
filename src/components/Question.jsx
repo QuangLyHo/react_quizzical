@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {decode} from 'html-entities'
 
 export default function Question(
-    {id, question, answers, correct, selected, selectAnswer, gradeQuiz}) {
+    {question, answers, correct, selected, selectAnswer, gradeQuiz}) {
     
     
     let answersHtml = answers.map((item, index) => {
