@@ -8,7 +8,7 @@ The goal of this project was to practice everything I've learned about React and
 
 ### Screenshot
 
-- ![](react-quizzical.gif)
+![](react-quizzical.gif)
 
 ### Link 
 
