@@ -8,8 +8,11 @@ The goal of this project was to practice everything I've learned about React and
 
 ### Screenshot
 
+- ![](react-quizzical.gif)
 
 ### Link 
+
+- [Live Site](https://whimsical-snickerdoodle-59ad33.netlify.app)
 
 ### Built with 
 
